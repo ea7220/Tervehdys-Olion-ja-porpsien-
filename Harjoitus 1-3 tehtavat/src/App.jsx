@@ -12,7 +12,7 @@ function App() {
     <div>
       <h1>React tehtävät</h1>
 
-      <Tervehdys nimi="Elias" />
+      <Tervehdys nimi="Ville" />
 
       <OpiskelijaTiedot opiskelija={opiskelija} />
     </div>
