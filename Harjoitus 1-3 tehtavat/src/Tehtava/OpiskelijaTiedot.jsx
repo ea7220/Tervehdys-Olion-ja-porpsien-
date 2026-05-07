@@ -1,10 +1,4 @@
-function OpiskelijaTiedot() {
-  const opiskelija = {
-    nimi: "Matti Meikäläinen",
-    ika: 16,
-    kurssi: "Reactin perusteet",
-  };
-
+function OpiskelijaTiedot({ opiskelija }) {
   return (
     <div>
       <h2>{opiskelija.nimi}</h2>
